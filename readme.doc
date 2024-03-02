@@ -1,0 +1,6 @@
+Fast forward mergers are where a branch has commits to it that the main does not yet, then that branch is merged with the main branch to "fast forward" the main branch and catch it up. There are no conflicts and the changegs are quickly applied.
+
+A conflict will arise when edits are made to the same line in the file, with both people working on the same version (no one pulled the other's edits). Git does not know who's changes to apply, causing the conflict.
+
+A merge conflict will not arise if the changes are made to different lines of the code, or if those working on the project pulled the other's code.
+
